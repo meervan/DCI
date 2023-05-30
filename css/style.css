@@ -23,6 +23,10 @@ button {
     -webkit-box-shadow: 0 5px 5px -5px rgba(19, 21, 22, 0.6);
     -moz-box-shadow: 0 5px 5px -5px rgba(19, 21, 22, 0.6);
     box-shadow: 0 5px 5px -5px rgba(19, 21, 22, 0.6);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px);
 
 }
 
@@ -34,6 +38,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .header-nav a{
@@ -135,6 +140,7 @@ button {
 }
 
 .welcome-text h1 {
+    width: 454px;
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -179,13 +185,13 @@ button {
 
 }
  .product-block p{
-     width: 319px;
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
      font-size: 18px;
      line-height: 150%;
      color: #30444E;
      padding: 15px 0;
+     width: 329px;
 
  }
 
@@ -208,7 +214,7 @@ button {
 
  }
 
- .product-blocks{
+ .product-general{
      display: flex;
      justify-content: space-between;
      align-items: center;
